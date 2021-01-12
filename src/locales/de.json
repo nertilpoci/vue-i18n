@@ -1,3 +1,4 @@
 {
-  "message": "Dies ist eine Demo für die Implementierung von Vue I18n"
+  "message": "Dies ist eine Demo für die Implementierung von Vue I18n",
+  "car": "keine Autos | ein Auto | {count} Autos"
 }
