@@ -1,4 +1,7 @@
 {
   "message": "Dies ist eine Demo für die Implementierung von Vue I18n",
-  "car": "keine Autos | ein Auto | {count} Autos"
+  "car": "keine Autos | ein Auto | {count} Autos",
+  "pluralization":"Pluralisierung",
+  "currency":"Währung",
+  "language": "Sprache"
 }

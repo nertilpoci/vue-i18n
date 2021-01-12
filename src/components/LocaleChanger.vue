@@ -1,6 +1,6 @@
 <template>
     <b-card
-    title="Language"
+     :title="$t('language')"
     :img-src="getImgUrl($i18n.locale)"
     img-alt="Image"
     img-top

@@ -13,29 +13,26 @@
           <b-card-group deck>
          <LocaleChanger />
            <b-card
-          sub-title="Change the number to 0, 1 or higher"
-          title="Pluralization"
+          :title="$t('pluralization')"
           class="mb-2"
           style="max-width: 300px"
         >
           <b-form-input
             type="number"
             v-model="pluralization"
-            placeholder="Enter a value"
           ></b-form-input>
           <b-card-text>
             <b>{{ $tc("car", pluralization, { count: pluralization }) }}</b>
           </b-card-text>
         </b-card>
           <b-card
-          title="Currency"
+          :title="$t('currency')"
           class="mb-2"
           style="max-width: 300px"
         >
          <b-form-input
             type="number"
             v-model="money"
-            placeholder="Enter a value"
           ></b-form-input>
           <b-card-text>
              <p>{{ $n(money, 'currency') }}</p>
